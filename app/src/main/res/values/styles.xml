@@ -7,4 +7,28 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- TextView Theme -->
+    <style name="AllText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+    </style>
+
+    <!-- ImageView Theme -->
+    <style name="AllImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Button Theme -->
+    <style name="AllButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
 </resources>

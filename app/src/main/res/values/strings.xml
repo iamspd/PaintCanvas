@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">PaintCanvas</string>
+
+    <!-- String value for title [CHAR LIMIT = 10] -->
+    <string name="title">Paint Canvas</string>
+
+    <!-- String value for home screen button [CHAR LIMIT = 20] -->
+    <string name="button_home">Start Painting</string>
+
+    <!-- String value for home screen image [CHAR LIMIT = 10] -->
+    <string name="img_main">Paint Image</string>
+
+    <!-- String value for draw pointer thickness [CHAR LIMIT = 20] -->
+    <string name="thickness_pointer">Select Thickness</string>
+
+    <!-- String value for color [CHAR LIMIT = 10] -->
+    <string name="color_select">Select Color</string>
+
+    <!-- String value for set properties button [CHAR LIMIT = 20] -->
+    <string name="setProperties_button">Set Properties</string>
+
+    <!-- String value for clear screen button [CHAR LIMIT = 10]-->
+    <string name="clearScreen_button">Clear Canvas</string>
+
 </resources>
