@@ -10,6 +10,8 @@ import android.widget.Spinner;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.Objects;
+
 public class CanvasActivity extends AppCompatActivity {
 
     // widgets
@@ -22,6 +24,9 @@ public class CanvasActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_canvas);
+
+        Objects.requireNonNull(getSupportActionBar()).setTitle(R.string.title);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         findAllViews();
     }
@@ -42,7 +47,7 @@ public class CanvasActivity extends AppCompatActivity {
         int selectedId = rgColor.getCheckedRadioButtonId();
 
         // find the radiobutton by returned id
-        rbColor = (RadioButton) findViewById(selectedId);
+        rbColor = findViewById(selectedId);
 
         String lineColor = rbColor.getText().toString();
         int color;
