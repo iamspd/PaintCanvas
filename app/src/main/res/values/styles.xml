@@ -16,8 +16,8 @@
 
     <!-- ImageView Theme -->
     <style name="AllImage">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">258dp</item>
         <item name="android:scaleType">centerCrop</item>
         <item name="android:layout_gravity">center</item>
     </style>
