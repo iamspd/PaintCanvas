@@ -22,4 +22,13 @@
     <!-- String value for clear screen button [CHAR LIMIT = 10]-->
     <string name="clearScreen_button">Clear Canvas</string>
 
+    <!-- String value for BLUE color [CHAR LIMIT = 10]-->
+    <string name="blue">Blue</string>
+
+    <!-- String value for Yellow color [CHAR LIMIT = 10]-->
+    <string name="yellow">Yellow</string>
+
+    <!-- String value for Red color [CHAR LIMIT = 10]-->
+    <string name="red">Red</string>
+
 </resources>
