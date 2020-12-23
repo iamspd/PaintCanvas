@@ -31,4 +31,11 @@
     <!-- String value for Red color [CHAR LIMIT = 10]-->
     <string name="red">Red</string>
 
+    <!-- String array for line thickness [CHAR LIMIT = 10]-->
+    <string-array name="pointer_stroke">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+
 </resources>
